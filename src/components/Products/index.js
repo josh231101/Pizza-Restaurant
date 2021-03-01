@@ -11,13 +11,14 @@ import {
     ProductPrice,
     ProductButton
 } from './ProductsElements';
-
+import Fade from 'react-reveal';
 
 const Products = ({heading,data}) => {
     return (
         <ProductsContainer>
             <ProductsHeading>{heading}</ProductsHeading>
             <ProductWrapper>
+                <Fade bottom>
                 {data.map((product, index)=>{
                     return (
                         <ProductCard key={index}>
@@ -31,6 +32,7 @@ const Products = ({heading,data}) => {
                         </ProductCard>
                     )
                 })}
+                </Fade>
             </ProductWrapper>
 
         </ProductsContainer>

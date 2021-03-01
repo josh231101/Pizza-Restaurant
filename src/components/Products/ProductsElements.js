@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ProductsContainer = styled.div`
+export const ProductsContainer = styled.section`
     width : 100%;
     min-height : 100vh;
     padding : 5rem calc((100vw - 1300px)/2);
