@@ -14,9 +14,24 @@ const Sidebar = ({isOpen,toggle}) => {
                 <CloseIcon></CloseIcon>
             </Icon>
             <SidebarMenu>
-                <SidebarLink to="/">Pizzas</SidebarLink>
-                <SidebarLink to="/">Desserts</SidebarLink>
-                <SidebarLink to="/">Full Menu</SidebarLink>
+                <SidebarLink 
+                    to="pizza"
+                    smooth={true}
+                    duration={500}
+                    onClick={toggle}
+                    >Pizzas</SidebarLink>
+                <SidebarLink 
+                    to="desserts"
+                    smooth={true}
+                    duration={500}
+                    onClick={toggle}
+                    >Desserts</SidebarLink>
+                <SidebarLink
+                    to="menu"
+                    smooth={true}
+                    duration={500}
+                    onClick={toggle}
+                >Full Menu</SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
                 <SidebarRoute to="/">Order Now</SidebarRoute>

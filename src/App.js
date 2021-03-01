@@ -11,9 +11,9 @@ const App = ()=> {
     <Router className="App">
       <GlobalStyle/>
       <Hero/>
-      <Products heading='Choose your favorite' data={productData}/>
+      <Products id="pizza" heading='Choose your favorite' data={productData}/>
       <Features/>
-      <Products heading='Sweet Treats for You' data={productDataTwo}/>
+      <Products id="desserts" heading='Sweet Treats for You' data={productDataTwo}/>
       <Footer/>
     </Router>
   );

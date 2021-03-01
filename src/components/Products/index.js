@@ -13,9 +13,9 @@ import {
 } from './ProductsElements';
 import Fade from 'react-reveal';
 
-const Products = ({heading,data}) => {
+const Products = ({heading,data,id}) => {
     return (
-        <ProductsContainer>
+        <ProductsContainer id={id}>
             <ProductsHeading>{heading}</ProductsHeading>
             <ProductWrapper>
                 <Fade bottom>

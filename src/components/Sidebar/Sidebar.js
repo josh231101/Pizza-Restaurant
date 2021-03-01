@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import {Link} from 'react-scroll';
 import {FaTimes} from 'react-icons/fa';
 import styled from 'styled-components';
 
