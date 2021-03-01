@@ -9,7 +9,6 @@
 :pizza: Amazing hero section!<br>
 :pizza: Semantic HTML5!<br>
 
-<img src="https://i.ibb.co/Ch89ZtF/Screenshot-from-2021-01-04-20-41-49.png">
 
 ## Packages Used :
 :orange_book: React Scroll<br>
